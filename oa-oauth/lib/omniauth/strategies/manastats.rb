@@ -12,7 +12,7 @@ module OmniAuth
       # @option options [String] :scope ('email,offline_access') comma-separated extended permissions such as `email` and `manage_pages`
       def initialize(app, client_id = nil, client_secret = nil, options = {}, &block)
         client_options = {
-          :site => 'http://ms.local/',
+          :site => 'http://localhost:3000/',
           :authorize_path => '/oauth/authorize',
           :access_token_path => '/oauth/access_token'
         }
