@@ -24,5 +24,6 @@ module OmniAuth
     autoload :Google,             'omniauth/strategies/google'
     autoload :Netflix,            'omniauth/strategies/netflix'
     autoload :Bitly,              'omniauth/strategies/bitly'
+    autoload :Manastats,              'omniauth/strategies/manastats'
   end
 end
