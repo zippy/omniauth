@@ -10,8 +10,7 @@ module OmniAuth
       # @param [String] client_id the application id as registered as a client application on MANAstats
       # @param [String] client_secret the application secret as registered on MANAstats
       # @option options [String] :scope ('email,offline_access') comma-separated extended permissions such as `email` and `manage_pages`
-      def initialize(app, client_id = nil, client_secret = nil, options = {},something = nil, &block)
-        debugger
+      def initialize(app, client_id = nil, client_secret = nil, options = {}, &block)
         client_options = {
           :site => 'http://ms.local/',
           :authorize_path => '/oauth/authorize',
